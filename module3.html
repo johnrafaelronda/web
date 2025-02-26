@@ -4,10 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>module3</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            background-image: url('https://wallpaperaccess.com/full/6234555.jpg');
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: auto;
+            content: '';
+            background-attachment: fixed;
+            color: white;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+        hr{
+            margin: 10px;
+        }
+
+        footer ul{
+            text-align: center;
+            list-style: none;
+        }
+
+        footer ul li{
+            display: inline-block;
+        }
+
+        img:hover{
+            transform: translate(10px, 20px);
+        }
+
+        img{
+        border-radius: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h3><a href="index.html">Home Page</a></h3>
+    <header>
+        <h1><b>HTML LIST</b></h1>
+        <p>Our day-to-day lives often involve the use of lists. For example, when we go shopping,
+            the bill we receive includes a list of all the items we've purchased.
+            In a similar manner, web developers use lists to neatly display data on websites.</p>
+    </header>
+    <section>
+        <h2>Types of HTML Lists</h2>
+        <p>HTML provides different types of lists to display data in various forms. 
+            Each list contains one or more list items.</p>
+            <ul>
+                <li><b>Unordered List: </b>Displays items using bullets.</li>
+                <li><b>Ordered List: </b>Displays items in a numerical sequence, and supports 
+                    various numbering styles like Arabic numerals, Roman numerals, and so on.</li>
+                <li><b>Definition List: </b> Organizes items in a format similar to a dictionary, 
+                    with terms and their corresponding definitions.</li>
+            </ul>
+    </section>
+    <section>
+        <h2>An Unordered List</h2>
+        <p>An unordered list uses bullets to display items. It is suitable for 
+            listing items where the order doesn't matter. 
+            We will soon explore unordered lists in great detail</p>
+            <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-lists/unordered-list-example.png" alt="unordered-list-example" width="35%">
+    </section>
+    <section>
+        <h2>An Ordered List</h2>
+        <p>An ordered list uses numbers or other types of markers to indicate the sequence of items.
+             It's ideal for listing steps in a process or ranking items in order of importance. 
+             We will soon explore ordered lists in great detail</p>
+             <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-lists/ordered-list-example.png" alt="ordered-list-example" width="35%">
+    </section>
+    <section>
+        <h2>A DefinitionList</h2>
+        <p>A definition list arranges items in a way similar to a dictionary, 
+            with a term followed by its definition. This is useful for glossaries or to display metadata.</p>
+        <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-lists/definition-list-html.png" alt="DefinitionList" width="35%">
+    </section>
+    <section>
+        <h1><b>HTML TABLES</b></h1>
+        <P>HTML tables allow you to arrange data like text, images, and links in rows and columns. 
+            You use the < table > tag to start and end a table.</P>
+            <h2>Key Elements of HTML Table</h2>
+            <ul>
+                <li>< table >: Defines the table itself.</li>
+                <li>< tr >: Used for table rows.</li>
+                <li>< th >: Used for table headings.</li>
+                <li>< td >: Used for table cells (data).</li>
+            </ul>
+            <h2>Basic table Structure</h2>
+            <img src="https://www.thedataschool.com.au/wp-content/uploads/2018/10/HTML-table-.png" alt="" width="35%">
+            <h2>rowspan and colspan Attributes</h2>
+            <p><b>Rowspan:</b> If you want a table cell to span multiple rows, you can use the rowspan attribute.</p>
+            <p><b>< td rowspan="value"></b></p>
+            <p><b>Colspan:</b> If you want a table cell to span multiple columns, you can use the colspan attribute.</p>
+            <p><b>< td colspan="value"></b></p>
+            <h2>Visual Representation of Rowspan and Colspan</h2>
+            <img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/html-tables/colspan-rowspan.png" alt="" width="35%">
+            <h2>Conclusion</h2>
+            <p>We've covered some advanced topics related to HTML tables in this blog. By using these features, 
+                you can create tables that are not only visually appealing but also highly functional and accessible. 
+                Stay tuned for more insights into HTML and web development!</p>
+
+    </section>
+    <h3><a href="index.html" style="color: rgb(23, 131, 173);">Home Page</a></h3>
     <hr>
     <footer>
         <ul>

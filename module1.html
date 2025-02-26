@@ -4,12 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Introduction</title>
-    <link rel="stylesheet" href="style.css">
+   
+
+    <style>
+        *{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        body {
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            background-image: url('https://wallpaperaccess.com/full/6234555.jpg');
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: auto;
+            content: '';
+            background-attachment: fixed;
+            color: white;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+        hr{
+            margin: 10px;
+        }
+
+        footer ul{
+            text-align: center;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        footer ul li{
+            display: inline-block;
+        }
+
+        .History img{
+           float: right;
+        }
+
+        .STags img{
+            float: right;
+        }
+
+        img:hover{
+            transform: scale(.9);
+        }
+
+    </style>
 </head>
 <body>
-    <header>
-        <h1>KIYOKATA</h1>
-    </header>
+
     <section class="Objectives">
         <h2>INTRODUCTION TO HTML</h2>
         <br>
@@ -20,8 +70,9 @@
                 <li>Create a web page using heading, paragraph, and formatting tags.</li>
             </ol>
     </section>
-    <section>
+    <section class="History">
         <figcaption><b>HISTORY OF HTML:</b></figcaption>
+        <img src="https://static.javatpoint.com/definition/images/html-definition.png" alt="Internet" width="60%">
         <ul>
             <li>In 1989, Tim Berners-Lee established the World Wide Web (www), and in 1991, he created the first version of HTML.</li>
             <li>From 1995 to 1997, further work was done to develop and refine different versions of HTML.</li>
@@ -29,7 +80,7 @@
             <li>The latest and most stable version of HTML is 5, also known as HTML5.</li>
         </ul>
         <p>Feel free to read more history of HTML here on the <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML Wikipedia page</a> but I will move ahead and cover important aspects of HTML.
-In the next tutorial, we'll continue our journey and understand how websites work</p>
+            In the next tutorial, we'll continue our journey and understand how websites work</p>
     </section>
     <section class="Html">
         <figcaption><b>HTML</b></figcaption>
@@ -39,34 +90,8 @@ In the next tutorial, we'll continue our journey and understand how websites wor
             <li>A markup language then is a set of interpretation 
                 to text that describes how it is to be structured, laid out or formatted.</li>
         </ul>
-        <img src="https://static.javatpoint.com/definition/images/html-definition.png" alt="Internet" width="35%">
     </section>
     <br>
-    <section class="Tags">
-        <figcaption><b>Tags</b></figcaption>
-        <ul>
-            <li>Tags are basic units or building blocks of an HTML file or code.</li>
-            <li>Web pages are designed and HTML codes are made up of these tags – they control how the HTML does its structuring, laying out and formatting.</li>
-        </ul>
-    </section>
-    <section class="STags">
-        <figcaption><b>Structure of a Tag</b></figcaption>
-        <ul>
-            <li>Tags are enclosed in angle brackets < and >.</li>
-        </ul>
-        <img src="https://1.bp.blogspot.com/-eEaOL9yOW3I/XVAj3U2KByI/AAAAAAAAIOo/XE0v9xzWgH00-5By67aAfMrn31-9_g8-gCLcBGAs/s1600/basicHTML.png" alt="Examples" width="35%">
-    </section>
-    <br>
-    <section class="Container-Tags">
-        <figcaption><b>Container and Empty Tags</b></figcaption>
-        <p>There are two types of tags namely:</p>
-        <ol>
-            <li>Container Tags – have the start and end tags together with the content.</li>
-            <li>Empty Tags / non-container Tags – tags that stand alone and do not require end tags.</li>
-            <br>
-            <img src="https://th.bing.com/th/id/OIP.hq5kh1F91UgfnzHqUvAHIQHaFh?rs=1&pid=ImgDetMain" alt="html tags" width="25%">
-        </ol>
-    </section>
     <section class="Head-Tags">
         <figcaption><b>Head Tags</b></figcaption>
         <br>
@@ -75,7 +100,6 @@ In the next tutorial, we'll continue our journey and understand how websites wor
             <li>Head - Contains meta-information and links to scripts and stylesheets.  </li>
             <li> Body - Contains the content of the web page..</li>
             <br>
-            <img src="https://2.bp.blogspot.com/-NpimqpD5oB0/VEUznhf2ReI/AAAAAAAADYs/Y1Igi1t8kJc/s1600/hello-world-view.png" alt=" Head Tags" width="25%">
         </ol>
     </section>
     <section class="Html-Basics_Tags">
@@ -86,7 +110,30 @@ In the next tutorial, we'll continue our journey and understand how websites wor
             <li>The h6 is the smallest heading tag; used for very specific or minor headings, rarely seen in general usage.</li>
         </ul>
         <br>
-        <img src="https://th.bing.com/th/id/OIP.JZeGlv_hWdophDeaFnCzGwHaEu?rs=1&pid=ImgDetMain" alt="">
+    </section>
+    <section class="Tags">
+        <figcaption><b>Tags</b></figcaption>
+        <ul>
+            <li>Tags are basic units or building blocks of an HTML file or code.</li>
+            <li>Web pages are designed and HTML codes are made up of these tags – they control how the HTML does its structuring, laying out and formatting.</li>
+        </ul>
+    </section>
+    <section class="STags">
+        <figcaption><b>Structure of a Tag</b></figcaption>
+        <img src="https://th.bing.com/th/id/OIP.hq5kh1F91UgfnzHqUvAHIQHaFh?rs=1&pid=ImgDetMain" alt="html tags" width="60%">
+        <ul>
+            <li>Tags are enclosed in angle brackets < and >.</li>
+        </ul>
+    </section>
+    <br>
+    <section class="Container-Tags">
+        <figcaption><b>Container and Empty Tags</b></figcaption>
+        <p>There are two types of tags namely:</p>
+        <ol>
+            <li>Container Tags – have the start and end tags together with the content.</li>
+            <li>Empty Tags / non-container Tags – tags that stand alone and do not require end tags.</li>
+            <br>
+        </ol>
     </section>
     <section class="Paragraph">
         <br>
@@ -103,29 +150,32 @@ In the next tutorial, we'll continue our journey and understand how websites wor
     <br>
     <section class="Brtags">
         <figcaption><b>Line Break</b></figcaption>
+        <br>
         <li>To insert a line break in your HTML document, you can utilize the < br > tag.
 
             < br > tag is used to insert line breaks in text or paragraphs
             
             The syntax for the < br > tag looks like this:</li>
         <br>
-            <img src="https://th.bing.com/th/id/OIP.pFPRpLJE1qfZTA0ular3oQAAAA?w=259&h=86&c=7&r=0&o=5&pid=1.7" alt="brTags" width="35%">
         </section>
         <br>
     <section class="">
         <figcaption><b>Horizontal Line</b></figcaption>
+        <br>
         <li>To add a horizontal line in your HTML document, the < hr > tag comes in handy.</li>
         <li>The < hr > tag is an empty or self-closing tag, meaning it doesn't require a closing tag. </li>
     </section>
     <br>
     <section class="PreTags">
         <figcaption><b> PRE TAGS</b></figcaption>
+        <br>
         <li>The < pre > tag serves as an indispensable tool in HTML for displaying preformatted text, such as code snippets in various programming languages.</li>
         <li>The < pre > tag preserves the original formatting of text, making it an excellent choice for displaying code where spacing and indentation are key.</li>
     </section>
     <br>
     <section class="Comments">
         <figcaption><b>Comments</b></figcaption>
+        <br>
         <li>
             Comments in HTML are like little notes you leave in your code for yourself or other people. 
             These notes help make the code easier to understand but don't show up on the actual website. 
@@ -138,15 +188,16 @@ In the next tutorial, we'll continue our journey and understand how websites wor
     <br>
     <section class="Attributes">
         <figcaption><b>HTML Attributes</b></figcaption>
+        <br>
         <li>HTML attributes are used to define the characteristics of an HTML element. They are placed within the element's opening tag and consist of two parts: the  <b>name</b> and the <b>value.</b></li>
         <li><b>Name</b>: Specifies the property for that element.</li>
         <li><b>Value</b>: Sets the value of that property for the element.</li>
         <br>
-        <img src="https://www.w3resource.com/w3r_images/html-attribute-pic.png" alt="Attributes" width="35%">
     </section>
     <br>
     <section class="Core-Attributes">
         <figcaption><b>CORE Attributes</b></figcaption>
+        <br>
         <li>
             <b>id</b>
             <p>The id attribute of an HTML tag can be used to uniquely identify any element within an HTML page. There are two primary reasons that you might want to use an id attribute on an element:
@@ -155,11 +206,7 @@ In the next tutorial, we'll continue our journey and understand how websites wor
                     <li>If you have two elements of the same name within a Web page (or style sheet), you can use the id attribute to distinguish between elements that have the same name.</li>
                 </ol>
                 </p>
-        </li>
-        <img src="https://dotnettutorials.net/wp-content/uploads/2021/10/word-image-152.png" alt="id" width="35%">
-        <br>
-        <br>
-        <li>
+        </li>        <li>
             <b>title</b>
             <ul>
                 <li>The title attribute gives a suggested title for the element. They syntax for the title attribute is similar as explained for id attribute: </li>
@@ -183,10 +230,7 @@ In the next tutorial, we'll continue our journey and understand how websites wor
         </li>
     </section>
     <section class="Formatting Texts">
-        <figcaption><b>Formatting Texts</b></figcaption>
-        <br>
-        <img src="https://1.bp.blogspot.com/-usNLzLr5-X4/XwNSe0vtFsI/AAAAAAAABao/42zkpt70IfAWizGq3znAlWvpYYdZSVnbQCLcBGAsYHQ/s1600/all-main-formatting-html-tags.png" alt="Formatting Tags" width="45%">
-    </section>
+        <figcaption><b>Formatting Texts</b></figcaption>   
     <br>
     <section class="Font Tags">
         <figcaption><b>Font Tags</b></figcaption>
@@ -211,7 +255,7 @@ In the next tutorial, we'll continue our journey and understand how websites wor
             </ol>
         </ul>
     </section>
-    <h3><a href="index.html">Home Page</a></h3>
+    <h3><a href="index.html" style="color: rgb(23, 131, 173);">Home Page</a></h3>
         <hr>
     <footer>
         <ul>
